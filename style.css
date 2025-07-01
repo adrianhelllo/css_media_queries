@@ -11,6 +11,6 @@ body {
     box-sizing: border-box;
 }
 
-@media screen and (min-aspect-ratio: 7/4) {
+@media screen and (min-width: 481px) {
     // css rules
 }
