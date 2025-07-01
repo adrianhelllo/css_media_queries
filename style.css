@@ -66,3 +66,47 @@ footer {
         display: none
     }
 }
+
+/* medium media q */
+@media screen and (min-width: 768px) {
+    body {
+        background-color: yellow;
+        background-image: radial-gradient(white, yellow);
+
+    }
+}
+
+/* large media q */
+@media screen and (min-width: 992px) {
+    body {
+        background-color: orangered;
+        background-image: radial-gradient(white, orangered);
+
+    }
+}
+
+/* xl media q */
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: rebeccapurple;
+        background-image: radial-gradient(white, rebeccapurple);
+
+    }
+}
+
+/* landscape mob. media q */
+@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
+    body {
+        background-color: dodgerblue;
+        background-image: radial-gradient(white, dodgerblue);
+
+    }
+
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+
+    nav {
+        display: none
+    }
+}
