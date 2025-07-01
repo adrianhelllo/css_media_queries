@@ -11,6 +11,6 @@ body {
     box-sizing: border-box;
 }
 
-@media screen and (orientation: landscape) {
+@media screen and (min-aspect-ratio: 7/4) {
     // css rules
 }
