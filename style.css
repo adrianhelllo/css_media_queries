@@ -10,3 +10,10 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+/*
+@media media type and (condition: breakpoint) {
+    css rules
+}
+
+this is the basic syntax of a media query
